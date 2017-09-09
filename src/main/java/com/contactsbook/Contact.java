@@ -45,10 +45,10 @@ public class Contact{
 	
 	private String buildContactString() {
 		return new StringBuilder()
-						.append(name+ " ")
-						.append(lastname + " ")
-						.append(number)
-						.toString();
+				.append(name+ " ")
+				.append(lastname + " ")
+				.append(number)
+				.toString();
 	}
 	
 	private boolean compareContacts(Contact contact) {

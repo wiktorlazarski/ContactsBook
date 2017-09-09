@@ -15,7 +15,6 @@ public class ContactListPanel extends JPanel implements ContactListWriter{
 	
 	public void write(ContactList contacts) {
 		contactsList.setText(contacts.toString());
-		repaint();
 	}
 	
 	@Override

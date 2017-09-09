@@ -12,10 +12,10 @@ public class ContactWindow extends JFrame{
 	private static int POSITION_Y = 100;
 	
 	public ContactWindow() {
-		setWindowAtribs();
+		setWindowAttribs();
 	}
 	
-	private void setWindowAtribs() {
+	private void setWindowAttribs() {
 		setTitle(TITLE);
 		setSize(WIDTH, HEIGHT);	
 		setLocation(POSITION_X, POSITION_Y);
