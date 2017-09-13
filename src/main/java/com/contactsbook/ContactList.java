@@ -13,7 +13,15 @@ public class ContactList{
 	public boolean addContact(Contact toAdd) {
 		return contacts.add(toAdd);
 	}
-	
+
+	public Contact getContact(int idx) {
+		return contacts.get(idx);
+	}
+
+	public int size() {
+		return contacts.size();
+	}
+
 	public boolean deleteContact(Contact toDelete) {
 		for(Contact contact : contacts) {
 			if(contact.equals(toDelete)) {
